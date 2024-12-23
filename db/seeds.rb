@@ -7,3 +7,6 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
+#   
+# Semilla para crear el usuario administrador
+User.create(email: "andrea_d@gmail.com", password: "admin1234", name: "Andrea Dominguez", role: :admin)
